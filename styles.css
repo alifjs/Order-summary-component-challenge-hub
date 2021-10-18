@@ -89,3 +89,8 @@ body{
     color:rgba(0, 0, 0, 0.541);
     margin-top:20px;
 }
+@media screen and (max-width:400px){
+    .container{
+        height:510px;
+    }
+}
