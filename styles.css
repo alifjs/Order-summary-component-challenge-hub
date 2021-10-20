@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+html{
+    background:hsl(225, 100%, 94%);
+}
+body{
+    height:100vh;
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width:531px;
+    display:flex;
+    flex-direction:column;
+    background:white;
+    border-radius: 25px;
+    box-shadow:0 10px 10px rgba(0, 0, 0, 0.178);
+}
+#girl{
+    border-radius:25px 25px 0 0;
+}
+
+.order_summary h3{
+    text-align:center;
+    margin:30px 0 20px;
+    font-weight:900;
+    font-size:30px;
+}
+.order_summary p{
+    text-align: center;
+    font-size:22px;
+    margin:0 30px;
+    color:rgba(0, 0, 0, 0.541);
+}
+.container_2{
+    margin:15px 60px;
+    display:flex;
+    align-items: center;
+    background:rgb(244, 242, 250);
+    padding:25px;
+    border-radius:20px;
+}
+.container_2 img{
+    width:50px;
+}
+.annual_plan{
+    margin-left:20px;
+}
+.annual_plan h5{
+    font-size:22px;
+}
+.annual_plan p{
+    font-size:19px;
+    margin-top:5px;
+    color:rgba(0, 0, 0, 0.541);
+}
+.container_2 a{
+    flex-grow: 1;
+    text-align:right;
+    color:rgb(69, 43, 161);
+    font-size:18px;
+}
+.payment{
+    background:hsl(245, 75%, 52%);
+    margin:20px 60px 20px;
+    padding:10px 0 10px;
+    border-radius:10px;
+    cursor:pointer;
+    box-shadow:0 10px 10px rgba(128, 128, 128, 0.562);
+}
+.payment p{
+    color:white;
+    text-align:center;
+    font-size:22px;
+}
+#cancel_order{
+    text-decoration: none;
+    text-align:center;
+    font-size:19px;
+    color:rgba(0, 0, 0, 0.541);
+    margin-top:5px;
+    margin-bottom:20px;
+}
+
+@media screen and (max-width:600px){
+    .container{
+        width:85vw;
+        min-width:272px;
+    }
+    .order_summary h3{
+        font-size:18px;
+    }
+    .order_summary p{
+        font-size:16px;
+    }
+    .container_2{
+        margin:5px 20px;
+        padding:25px 10px;
+    }
+    .annual_plan h5,.payment p{
+        font-size:16px;
+    }
+    .annual_plan img{
+        padding:0;
+    }
+    .annual_plan p,.container_2 a,#cancel_order{
+        font-size:13px;
+    }
+    .payment{
+        margin:10px 20px 10px;
+    }
+}
