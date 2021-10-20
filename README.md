@@ -1,3 +1,4 @@
-In my laptop the 'text-size' is '175% zoomed'.So the project might look a little smaller than ideal.
+In the chrome dev tools, my website looks fine in iphone Se.But in real life it doesn't (in iphone Se).
+So any help regarding that will be very helpful to me.Cheers!
 
-There's a screenshot file here, of the project 'in my laptop'.
+Live site: https://alifjs.github.io/Order_summary_component-hub/
